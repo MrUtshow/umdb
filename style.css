@@ -17,7 +17,7 @@ body {
 
 .navbar {
   width: 100%;
-  background: var(--primary-color);
+  background: #08023b;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,10 +26,14 @@ body {
   color: white;
 }
 
+.icon {
+  width: 50%;
+  margin-right: 4em;
+}
+
 .logo {
   width: 30%;
-  height: 75px;;
-
+  height: 85px;;
 }
 
 .searchbox {
@@ -54,6 +58,8 @@ body {
   color: #fff;
   font-family: inherit;
   justify-content: center;
+  text-align: right;
+  padding-left: -5em;
 }
 
 .search:focus {
@@ -64,6 +70,7 @@ body {
 .search::placeholder {
   color: #7378c5;
 }
+
 
 main {
   display: flex;
