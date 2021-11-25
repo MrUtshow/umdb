@@ -188,10 +188,6 @@ function getMovies(url) {
         next.classList.remove('disabled')
       }
 
-      tagsEl.scrollIntoView({
-        behavior: 'smooth'
-      })
-
     } else {
       main.innerHTML = `<h1 class="no-results">No Results Found</h1>`
     }
